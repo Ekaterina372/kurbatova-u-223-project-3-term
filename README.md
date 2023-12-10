@@ -33,3 +33,7 @@ HospitalInfoSystem - это приложение для больницы для 
 
 Значение в БД 
 
+![libraries](https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D1%81%D0%BA%D1%80%D0%B8%D0%BD%D0%91%D0%941.png)
+
+![libraries](https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%20%D0%91%D0%942.png)
+
