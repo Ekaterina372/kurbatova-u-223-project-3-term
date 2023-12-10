@@ -35,7 +35,7 @@ HospitalManager - это приложение для больницы для о�
 
 Отображение в консоле
 - ![rusult](https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C1.png)
-- ![rusult](https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C1.png)
+- ![rusult](https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%20%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C2.png)
 
 Значения в БД
 
