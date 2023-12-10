@@ -27,4 +27,4 @@ HospitalInfoSystem - это приложение для больницы для 
 Эти результаты подчеркивают успешное внедрение функций управления отделениями и пациентами в больничной среде с использованием HospitalInfoSystem.
 
 Отображение в консоле
-![libraries]([public/libraries.png](https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%821.png)https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%821.png)
+![libraries](https://github.com/Ekaterina372/kurbatova-u-223-project-3-term/blob/main/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%821.png)
