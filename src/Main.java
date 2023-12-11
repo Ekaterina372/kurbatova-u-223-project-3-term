@@ -85,8 +85,9 @@ public class Main {
                         case 6:
                             System.out.print("Введите номер пациента для редактирования: ");
                             int editPatientNumber = scanner.nextInt();
-                            System.out.print("Введите новые данные пациента: ");
-                            String newPatientData = scanner.next();
+                            scanner.nextLine(); // Очистить символ новой строки после ввода числа
+                            System.out.print("Введите данные пациента: ");
+                            String newPatientData = scanner.nextLine();
                             System.out.print("Введите новый возраст пациента: ");
                             int newPatientAge = scanner.nextInt();
                             System.out.print("Введите новый пол пациента: ");
