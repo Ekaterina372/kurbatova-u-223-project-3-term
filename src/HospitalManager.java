@@ -87,19 +87,39 @@ public class HospitalManager {
 
 
 
+//    public void printBranchs() {
+//        try (ResultSet resultSet = executeQuery("SELECT id, name, patientsCount FROM Branch")) {
+//            System.out.println("Branch list:");
+//            while (resultSet.next()) {
+//                int id = resultSet.getInt("id");
+//                String name = resultSet.getString("name");
+//                int patientsCount = resultSet.getInt("patientsCount");
+//                System.out.println("ID: " + id + ", name: " + name + ", Patients  count: " + patientsCount);
+//            }
+//        } catch (SQLException e) {
+//            handleException(e);
+//        }
+//    }
+
+
     public void printBranchs() {
-        try (ResultSet resultSet = executeQuery("SELECT id, name, patientsCount FROM Branch")) {
+        try (ResultSet resultSet = executeQuery("SELECT b.id, b.name, COUNT(p.id) AS patientsCount " +
+                "FROM Branch b LEFT JOIN Patient p ON b.id = p.branchId " +
+                "GROUP BY b.id, b.name")) {
             System.out.println("Branch list:");
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String name = resultSet.getString("name");
                 int patientsCount = resultSet.getInt("patientsCount");
-                System.out.println("ID: " + id + ", name: " + name + ", Patients  count: " + patientsCount);
+                System.out.println("ID: " + id + ", name: " + name + ", Patients count: " + patientsCount);
             }
         } catch (SQLException e) {
             handleException(e);
         }
     }
+
+
+
 
     public void editPatient(int patientId, String newName, int newAge, String newSex) {
         executeUpdate("UPDATE Patient SET name = ?, age = ?, sex = ? WHERE id = ?", newName, newAge, newSex, patientId);
